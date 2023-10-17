@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --primary: #282828;
+    --background: #FFCD9E;
+
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section {
+    background-color: var(--background);
+}
+
+.main-wrapper {
+    width: 71vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 4rem 5rem;
+    justify-content: space-around;
+}
+
+.main_left {
+    width: 36vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1.25rem;
+}
+
+.main-hero_text {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.main-quote {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.main-h3 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.main-bottom_text {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0rem 0rem 0rem 2rem;
+}
+.main-form{
+    display: flex;
+    gap: 2rem;
+}
+.email-inp {
+    width: 65%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: 2px solid #000;
+    border-radius: 0.3rem;
+}
+
+.sub-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: var(--primary);
+}
+.main_right {
+    width: 19vw;
+    background: url('./surface1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* padding: 0rem 0rem 0rem 15rem; */
+}
+img {
+    height: 64%;
+}   
+.footer-section{
+    background-color: var(--primary);
+    color: #fff;
+}
+.footer-wrp{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+padding: 1.12rem 4rem;
+}
+.footer-ul-left>li, .footer-ul-right>li{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+.footer-ul-right{
+    text-align: right;
+}
+.abs{
+    margin-top: 3.15rem !important;
+}
